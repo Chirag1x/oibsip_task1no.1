@@ -1,0 +1,104 @@
+/*Upper Navbar*/
+*{
+    top:0px;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-home{
+   
+    background:url(template17.jpg)no-repeat center center/cover;
+    
+    top: 0px;
+    left: 0px;
+    height: 790px;
+    width: 100%;
+  
+   
+}
+.landing-page-navigation-menu{
+    z-index: 1;
+}
+.navbar-section{
+    display: flex;
+}
+.navbar-email svg{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.navbar-email a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+    font-size: 1rem;
+    font-family:sans-serif;
+}
+.navbar-number {
+    display: flex;
+}
+.navbar-number a {
+   color: black;
+   text-decoration: none;
+   margin-top: 2rem;
+   margin-left: 0.8rem;
+   font-size: 1rem;
+   font-family:sans-serif;
+}
+.navbar-number svg {
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+/*Lower NAvbar*/
+.landing-page-navigation-menu{
+    display: flex;
+    position: relative;
+    color: white;
+    float: right;
+    
+}
+.landing-page-navigation-menu ul{
+    display: flex;
+    position: relative;
+    color: white;
+    margin-right: 2rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    
+}
+.landing-page-navigation-menu ul li{
+    margin:2rem;
+    list-style: none;
+    list-style: none;
+    
+}
+.landing-page-navigation-menu ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.landing-page-navigation-menu ul li:hover:after {
+    width: 100%;
+    background:rgb(252, 252, 252);
+}
+
+.landing-page-navigation-menu ul li:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .7s ease, background-color .5s ease ;
+/* .landing-page-navigation-menu ul li a{
+        color: white;
+        position: relative;
+        text-decoration: none;
+        padding: 5px 24px;
+       
+        border-radius: 20px;
+}
+    
+.landing-page-navigation-menu ul li a:hover{
+        color: black;
+        background-color: white;
+} */
